@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package mock;  // XXX : copied 
+
+option before = "A2FC20CA2D";  // TODO : managed by popo
+option after = "10E02CA002";
+
+message DateTime {  // TODO : added additional
+    string datetime = 1;
+}
+
+message Event {
+    
+    enum EventType {
+        EVENT_1 = 0;  // TODO : overlapped numbering
+        EVENT_2 = 1;
+        EVENT_3 = 2;
+    }
+    
+    int32 id = 1;  // XXX : int32 mapped
+    EventType type = 2;
+    string username = 3;
+    repeated string results = 4;  // TODO : [] -> string?
+    DateTime at = 5;  // TODO : datetime->string
+}
+

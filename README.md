@@ -24,3 +24,4 @@ Define everything using POPOs (Plain Old Python Object), then you can easily use
 	- want to export with
 		- [sqlalchemy-utils](https://github.com/kvesteri/sqlalchemy-utils)
 		- [protobuf3](https://github.com/Pr0Ger/protobuf3)
+- Prefix/Postfix naming
