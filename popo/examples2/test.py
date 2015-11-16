@@ -1,5 +1,19 @@
-def test():
-    pass
+from enum import Enum
 
-class test2():
-    pass
+
+class Major(object):
+    """majorrrrr."""
+    name = ""
+
+
+class Target(object):
+    """Let's go!"""
+    name = ""
+    score = 0.0
+    major = Major
+    minor = ""
+
+
+class Cases(Enum):
+    a = 1
+    b = 2

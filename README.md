@@ -80,7 +80,12 @@ Define everything using POPOs (Plain Old Python Object), then you can easily use
 		- why need it?
 			- ...
 - Where is the gap for adding versioning process.
-- I want cli, but how to import `/path/popo-input.py`?
+- No Private / Forgien Key?!
+- Nested Class!
+- Alphabetical Order Class Contents?!!!
+
+## TODO
+- .gitignore
 
 ## Milestone
 1. Set the clear blueprint for v0.0.0 (due: 151115)
@@ -95,4 +100,4 @@ Define everything using POPOs (Plain Old Python Object), then you can easily use
 		- target factory
 	- Goal: directory design
 	- Goal: pipeline design
-3. .
+2. ...
