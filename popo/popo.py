@@ -4,13 +4,12 @@ from importlib import import_module
 
 class POPO(object):
     class TYPE(object):
-        name = None
         parent = None
         docstring = None
     class TYPE_INT(TYPE):  pass
     class TYPE_STRING(TYPE):  pass
     class TYPE_CLASS(TYPE):
-        childs = []
+        childs = {}  # XXX : sort by name
     class TYPE_ENUM(TYPE):
         pass  # TODO
 

@@ -83,6 +83,7 @@ Define everything using POPOs (Plain Old Python Object), then you can easily use
 - No Private / Forgien Key?!
 - Nested Class!
 - Alphabetical Order Class Contents?!!!
+- How to save the order of input, and keep it as output?!!!!!!!!!! <- currently biggest mission blocker (lib2to3 needed?)
 
 ## TODO
 - .gitignore
